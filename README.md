@@ -81,30 +81,7 @@ $$
 
 HAC (Newey-West) standard errors with 12 lags are used to account for potential autocorrelation and heteroskedasticity in the monthly data.
 
-                            OLS Regression Results
-==============================================================================
-Dep. Variable:              target_3m   R-squared:                       0.963
-Model:                            OLS   Adj. R-squared:                  0.962
-Method:                 Least Squares   F-statistic:                     982.4
-No. Observations:                 315   Prob (F-statistic):           3.38e-213
-Df Residuals:                     306   AIC:                            106.9
-Df Model:                           8   BIC:                            140.7
-==============================================================================
-
-                         coef    std err          t      P>|t|
-------------------------------------------------------------------------------
-const                -0.2161      0.571     -0.379      0.705
-ECB_Deposit_Rate       0.9103      0.014     63.353      0.000
-Inflation_HICP         0.0661      0.018      3.749      0.000
-Core_Inflation         0.1356      0.036      3.737      0.000
-Unemployment          -0.0042      0.016     -0.262      0.793
-Industrial            -0.0262      0.007     -3.849      0.000
-Brent_Oil_Price        0.0005      0.001      0.508      0.612
-EUR_USD                0.2891      0.158      1.828      0.069
-Economic_Sentiment     0.0210      0.005      4.200      0.000
-==============================================================================
-Covariance Type: nonrobust
-
+![OLS Regression Results](images/ols_hac_summary.png)
 
 ### Tools and Libraries
 
